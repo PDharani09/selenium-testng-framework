@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SauceDemo Regression Suite">
+  <test name="Login and Cart Tests">
+    <classes>
+      <class name="com.dharani.tests.LoginTest"/>
+      <class name="com.dharani.tests.CartTest"/>
+    </classes>
+  </test>
+</suite>
